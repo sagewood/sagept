@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+  <head>
+   <base href="[[++site_url]]"></base>
+    <meta charset="UTF-8">
+    <title>[[++site_name]] Wheat Ridge, Denver, Highlands, LoHi, Denver West, Front Range, Colorado</title> 
+    <meta name="description" content="Physical Therapy conveniently located and easily accessible for Wheat Ridge, Denver, Highlands, LoHi, Denver West, Front Range, Colorado patients." />
+    <meta name="keywords" content="physical therapy, injuries, occupational therapy, auto accidents, athletic injuries, athletes, kinetics, motion, water therapy" />
+<link rel="stylesheet" href="sagewood/aurora/css/style.css">
+<link href='http://fonts.googleapis.com/css?family=Asap:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+<script src='http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js'></script>
+<script src="sagewood/aurora/js/organictabs.jquery.js"></script>
+<script>
+$(function() {
+$("#example-two").organicTabs({
+"speed": 200
+});
+
+});
+</script>
+  <script type="text/javascript" src="highslide/highslide-with-html.js"></script>
+  <link rel="stylesheet" type="text/css" href="highslide/highslide.css" />
+  <script type="text/javascript">
+hs.graphicsDir = 'highslide/graphics/';
+hs.outlineType = 'rounded-white';
+</script>
+</head>
+
+<body>
+  <div id="big-image-here">
+    <!--<img src="aurora/images/11718028-aurora-borealis.jpg" alt="aurora borealis" />-->
+    <img src="sagewood/aurora/images/sunflower.jpg" alt="field of sunflowers" />
+  </div><!-- big image -->
+  <div id="page-wrap">
+    <div id="logo">
+      <h1>
+        <a href="/">Sagewood Physical Therapy North</a>
+      </h1>
+    </div>
+    <div id="example-two">
+      <ul class="nav">
+        <li class="nav-one">
+          <a href="#home" class="current">Home</a>
+        </li>
+        <li class="nav-two">
+          <a href="#services">Services</a>
+        </li>
+        <li class="nav-three">
+          <a href="#benefits">Benefits</a>
+        </li>
+        <li class="nav-four">
+          <a href="#linksforms">Billing/Forms</a>
+        </li>
+        <li class="nav-five">
+          <a href="#about">About/Contact</a>
+        </li>
+        <li class="nav-six last">
+          <a href="#contant">Contact</a>
+        </li>
+      </ul>
+      <div id="list-wrap">
+	<!--Home-->
+        <ul id="home">
+          [[!getResources? &resources=`1` &includeContent=`1` &tpl=`au.Content`]]
+[[!getResources@Testi]]
+        </ul>
+	
+	<!--Services-->
+        <ul id="services" class="hide">
+          [[!getResources? &resources=`48` &includeContent=`1` &tpl=`au.Content`]]
+[[!getResources@Testi]]
+        </ul>
+	
+	<!--Benefits-->
+        <ul id="benefits" class="hide">
+          [[!getResources? &resources=`52` &includeContent=`1` &tpl=`au.Content`]]
+[[!getResources@Testi]]
+        </ul>
+	
+	<!--Forms-->
+        <ul id="linksforms" class="hide">
+          [[!getResources? &resources=`49` &includeContent=`1` &tpl=`au.Content`]]
+        </ul>
+	
+	<!--About-->
+        <ul id="about" class="hide">
+          [[!getResources? &resources=`6` &includeContent=`1` &tpl=`au.Content`]]
+        </ul>
+	
+	<!--About-->
+        <ul id="contact" class="hide"></ul>
+
+        <div id="footer">
+          <a id="developed-by" href="http://peterb.co/" title="Peter B, Inc." target="_blank">Front end development by Peter B, Inc.</a>
+          <a id="powered-by" href="http://www.modx.com/" title="Modx CMF" target="_blank">Powered by MODX</a>
+        </div><!-- /footer --> </div><!-- END List Wrap --> </div><!-- END Organic Tabs (Example One) --> </div>
+</body>
+</html>
