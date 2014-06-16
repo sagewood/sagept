@@ -9,8 +9,10 @@ html {
 	/*background: url(../images/sunflower.jpg) no-repeat center -570px;*/
 	/*background: url(../images/AutumnLeavesRoad.jpg) no-repeat center;*/
 	/*background: url(../images/11718028-aurora-borealis.jpg) no-repeat center top;*/
-  background: url(../bgspring/tulips1.jpg) repeat center top;
+  /*background: url(../bgspring/tulips1.jpg) repeat center top;*/
+  background: #0a486c url(../images/SpringPanorama.jpg) no-repeat center top;
 }
+
 
 /*<img src="aurora/images/11718028-aurora-borealis.jpg" alt="aurora borealis" />*/
 
@@ -100,7 +102,7 @@ body#home h1 a.brand span{
   padding-right: 20px;
   padding-left: 20px;  
   border-radius:6px;
-	background-color: #e95f2e;
+	background-color: #198c46;
 }
 
 
@@ -1296,7 +1298,8 @@ form.bs-docs-example {
 }
 .img-polaroid{
 	max-width: 50%;
-	margin-right: 8px;
+	margin-right: 10px;
+	display: block;
 }
 .navbar .btn-navbar{
 	
@@ -1423,4 +1426,9 @@ form.bs-docs-example {
 	body .nav-collapse .nav > li > a {
 	color: #fff;
 }
+}
+.img-polaroid{
+	max-width: 50%;
+	margin-right: 10px;
+	display: block;
 }
