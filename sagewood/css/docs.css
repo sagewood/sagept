@@ -504,10 +504,9 @@ only screen and (     -o-min-device-pixel-ratio: 2/1) {
 /* Footer  */
 
 .footer {
-  padding: 30px 10px;
-  border-top: 1px solid #e5e5e5;
+  /*border-top: 1px solid #e5e5e5;*/
 	font-size: 12px;
-	/*background-color: rgba(240,225,151,0.5);*/
+	padding: 0 10px;
 }
 .footer p {
   margin-bottom: 0;
