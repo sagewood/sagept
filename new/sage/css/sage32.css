@@ -8,7 +8,7 @@ body {
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic,700italic,600,600italic);
 /*font-family: 'Open Sans Condensed', sans-serif;
 font-family: 'Open Sans', sans-serif;*/
-
+@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700);
 
 /* CUSTOMIZE THE NAVBAR */
 
@@ -41,6 +41,7 @@ font-family: 'Open Sans', sans-serif;*/
 
 .navbar-inverse .navbar-brand {
 		color: #ffac40;
+		font-family: 'Open Sans Condensed', sans-serif;
 }
 .navbar-inverse .navbar-nav>li>a{color: #ebebeb}
 
@@ -48,7 +49,9 @@ font-family: 'Open Sans', sans-serif;*/
 .navbar-inverse .navbar-brand:hover,.navbar-inverse .navbar-brand:focus{text-decoration:none;
 	color: #92d659;
 }
-
+a.navbar-brand {
+font-family: 'Open Sans Condensed', sans-serif;
+}
 
 /* CUSTOMIZE THE CAROUSEL */
 
