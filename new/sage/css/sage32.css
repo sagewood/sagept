@@ -1,15 +1,9 @@
 /* GLOBAL STYLES */
 /* Padding below the footer and lighter body text */
-body {
-  padding-bottom: 40px;
-  color: #5a5a5a;
-  font-family: 'Open Sans', sans-serif;
-}
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic,700italic,600,600italic);
-/*font-family: 'Open Sans Condensed', sans-serif;
-font-family: 'Open Sans', sans-serif;*/
-@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700);
 
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic,700italic,600,600italic);
+
+@import url(http://fonts.googleapis.com/css?family=Oswald:400,700);
 /* CUSTOMIZE THE NAVBAR */
 
 /* Special class on .container surrounding .navbar, used for positioning it into place. */
@@ -41,16 +35,14 @@ font-family: 'Open Sans', sans-serif;*/
 
 .navbar-inverse .navbar-brand {
 		color: #ffac40;
-		font-family: 'Open Sans Condensed', sans-serif;
+		font-family: 'Oswald', sans-serif;
+	font-weight: 400;
 }
 .navbar-inverse .navbar-nav>li>a{color: #ebebeb}
 
 .navbar-inverse .navbar-nav>.open>a,.navbar-inverse .navbar-nav>.open>a:hover,.navbar-inverse .navbar-nav>.open>a:focus{color:#fff;background-color: #ed7f39}
 .navbar-inverse .navbar-brand:hover,.navbar-inverse .navbar-brand:focus{text-decoration:none;
 	color: #92d659;
-}
-a.navbar-brand {
-font-family: 'Open Sans Condensed', sans-serif;
 }
 
 /* CUSTOMIZE THE CAROUSEL */
