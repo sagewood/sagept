@@ -6,11 +6,11 @@
 /*font-family: 'Open Sans Condensed', sans-serif;
 font-family: 'Open Sans', sans-serif;*/
 html {
-	/*background: url(../images/sunflower.jpg) no-repeat center -570px;*/
+	background: url(../images/sunflower.jpg) no-repeat center -570px;
 	/*background: url(../images/AutumnLeavesRoad.jpg) no-repeat center;*/
 	/*background: url(../images/11718028-aurora-borealis.jpg) no-repeat center top;*/
   /*background: url(../bgspring/tulips1.jpg) repeat center top;*/
-   background: #f64180 url(../bgspring/primRose-snow.jpg) repeat center top;
+   /*background: #f64180 url(../bgspring/primRose-snow.jpg) repeat center top;*/
 }
 
 
@@ -102,7 +102,10 @@ body#home h1 a.brand span{
   padding-right: 20px;
   padding-left: 20px;  
   border-radius:6px;
+  /*spring roses*/
   background-color: #e5115f;
+  /*sunflower*/
+  background-color: #713c75;
 }
 
 
@@ -266,7 +269,7 @@ ul.nav {
 	background: url(../ico/linkedin-icon.png) no-repeat;
 }
 
- Sections 
+/*Sections */
 
 /* padding for in-page bookmarks and fixed navbar */
 section {
