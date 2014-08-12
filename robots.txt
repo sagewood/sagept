@@ -3,7 +3,6 @@
 
 User-agent: Googlebot
 Allow: /*/*/tree/master
-Allow: /*/*/tree/gh-pages
 Allow: /*/*/blob/master
 Disallow: /ekansa/Open-Context-Data
 Disallow: /ekansa/opencontext-*
