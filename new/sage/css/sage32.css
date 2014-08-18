@@ -27,8 +27,21 @@
 .navbar-wrapper .navbar .container {
   width: auto;
 }
+
 body.seasonal {
 	background: url(../images/sunflower.jpg) no-repeat;
+}
+html#home {
+	background: url(../images/sunflower.jpg) no-repeat;
+}
+body.seasonal-home {
+	background: rgba(255,255,255,0.6);
+}
+.sagehome {
+	background-color: rgba(255,255,255,0.38);
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-radius: 10px;
 }
 /* color yay! */
 .navbar-inverse {
@@ -199,9 +212,15 @@ img.sage {
 	background-color: rgba(255,255,255,0.83);
 	border-radius: 4px;
 }
-
-/* RESPONSIVE CSS
--------------------------------------------------- */
+.panel-default>.panel-heading{
+	color:#333;background-color: rgba(185,228,253,0.7);border-color:#ddd
+}
+blockquote{
+	padding:10px 20px;margin:0 0 20px;
+	border-left: 6px solid rgba(185,228,253,0.7);
+	font-style: italic;
+}
+/* RESPONSIVE CSS */
 
 @media (min-width: 768px) {
 
