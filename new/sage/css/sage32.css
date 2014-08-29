@@ -35,14 +35,14 @@ html#home {
 	background: url(../images/sunflower.jpg) no-repeat;
 }
 body.seasonal-home {
-	background: rgba(255,255,255,0.6);
+	background: rgba(255,255,255,0.7);
 }
-.sagehome {
+/*.sagehome {
 	background-color: rgba(255,255,255,0.38);
 	padding-top: 10px;
 	padding-bottom: 10px;
 	border-radius: 10px;
-}
+}*/
 /* color yay! */
 .navbar-inverse {
 	background-color: #60638e;
