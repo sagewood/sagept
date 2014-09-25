@@ -84,14 +84,19 @@ $(document).ready(function(){
 //
 //  Note :  make sure  use this  http://bootstrapwizard.info/Theme/Fullscreen/images/bg4.jpg"  when on server  but you can simply use  "images/bg1.jpg"  if you are on localhost
 //
-// ***********************************								  jennylake.jpg
+// ***********************************	
 			 
 $("body").backstretch([
-	"images/serene/nature-layout-waterfall-serene.jpg",
-	"images/serene/serene-waterway.jpg",
-	"images/serene/sights-blue-serene-waters.jpg",
-	"images/serene/starry-night-serene-scenery.jpg",
-	"images/serene/sunset_over_the_lake_1920x1080.jpg"
+	// "images/serene/nature-layout-waterfall-serene.jpg",
+	// "images/serene/serene-waterway.jpg",
+	// "images/serene/sights-blue-serene-waters.jpg",
+	// "images/serene/starry-night-serene-scenery.jpg",
+	// "images/serene/sunset_over_the_lake_1920x1080.jpg"
+		"images/rotate/crystal-river1.jpg",
+		"images/rotate/ice-lake-basin.jpg",
+		"images/rotate/lake-san-cristobal.jpg",
+		"images/rotate/san-juan-colorado.jpg",
+		"images/rotate/san-juan-mountain.jpg"
 ], {duration: 5000, fade: 1000});
 							  
 
