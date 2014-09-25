@@ -20,6 +20,9 @@ body {
 	line-height:1.8em;
 	padding-top:90px;
 }
+.opa {
+	background-color: rgba(1,1,1,0.38);
+}
 
 p {
 	color:#f1f1f1;

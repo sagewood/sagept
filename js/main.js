@@ -97,7 +97,7 @@ $("body").backstretch([
 		"images/rotate/lake-san-cristobal.jpg",
 		"images/rotate/san-juan-colorado.jpg",
 		"images/rotate/san-juan-mountain.jpg"
-], {duration: 5000, fade: 1000});
+], {duration: 6327, fade: 1100});
 							  
 
 
